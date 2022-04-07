@@ -23,7 +23,7 @@ Na' tazzulella e' cafè ca' sigaretta a coppa pè nun verè
 s'aizano e' palazze fanno cose e' pazze ci girano
 c'avotano ci iengono e' tasse.."; ?>
 
-<h1><?= $cafe; ?></h1>
 <h2>Questo paragrafo contiene:<?=strlen($cafe); ?> caratteri</h2>
+<pre><?=  $cafe; ?></pre>
 </body>
 </html>
