@@ -22,6 +22,8 @@ e invece e c'aiutà c'abboffano e' cafè
 Na' tazzulella e' cafè ca' sigaretta a coppa pè nun verè
 s'aizano e' palazze fanno cose e' pazze ci girano
 c'avotano ci iengono e' tasse.."; ?>
-<?php echo $cafe; ?>
+
+<h1><?= $cafe; ?></h1>
+<h2>Questo paragrafo contiene:<?=strlen($cafe); ?> caratteri</h2>
 </body>
 </html>
